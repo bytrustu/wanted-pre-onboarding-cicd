@@ -1,0 +1,27 @@
+{
+  "name": "wanted-pre-onboarding-cicd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write --cache .",
+    "lint": "eslint --cache ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bytrustu/wanted-pre-onboarding-cicd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bytrustu/wanted-pre-onboarding-cicd/issues"
+  },
+  "homepage": "https://github.com/bytrustu/wanted-pre-onboarding-cicd#readme",
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.8.1"
+  }
+}
