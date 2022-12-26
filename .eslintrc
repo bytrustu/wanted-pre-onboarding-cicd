@@ -2,6 +2,7 @@
   "extends": ["prettier"],
   "rules": {
     "no-var": "warn",
-    "eqeqeq": "error"
+    "eqeqeq": "error",
+    "no-console": ["error", { "allow":  ["warn", "error", "info"] }]
   }
 }
