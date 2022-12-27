@@ -1,4 +1,4 @@
-name: CI/CD
+name: cicd
 
 on:
   push:
@@ -9,6 +9,4 @@ on:
     helloWorld:
       runs-on: ubuntu-latest
       steps:
-        - run: echo HelloWorld1
-        - run: echo HelloWorld2
-        - run: echo HelloWorld3
+        - run: echo HelloWorld
