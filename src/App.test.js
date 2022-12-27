@@ -6,5 +6,5 @@ test('renders learn react link', () => {
 
   const heading = screen.getByRole('heading');
   expect(heading).toBeInTheDocument();
-  expect(heading.textContent).toBe('Learn CI');
+  expect(heading.textContent).toBe('Learn React');
 });
