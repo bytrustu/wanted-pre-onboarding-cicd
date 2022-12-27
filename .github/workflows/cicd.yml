@@ -10,4 +10,7 @@ jobs:
   helloWorld:
     runs-on: ubuntu-latest
     steps:
-      - run: echo HelloWorld
+      - uses: actions/checkout@main
+      - run: npm ci
+      - run: npm run test
+      - run: echo SUCCESS
