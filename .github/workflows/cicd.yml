@@ -1,0 +1,14 @@
+name: CI/CD
+
+on:
+  push:
+    branches:
+      - main
+
+  jobs:
+    helloWorld:
+      runs-on: ubuntu-latest
+      steps:
+        - run: echo HelloWorld1
+        - run: echo HelloWorld2
+        - run: echo HelloWorld3
