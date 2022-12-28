@@ -4,7 +4,7 @@ function App() {
   return (
       <div>
         <h1>Learn React</h1>
-        <p>될려나????</p>
+        <p>Github Actions CICD</p>
       </div>
   );
 }
